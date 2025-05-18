@@ -3,335 +3,122 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jfox Terms and Policy</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.22.9/Babel.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@radix-ui/react-tabs@1.0.4/dist/index.umd.min.js"></script>
+  <title>Jfox Privacy Policy</title>
   <style>
-    /* Custom styles for Radix UI Tabs */
-    [data-radix-tabs-trigger][data-state="active"] {
-      background-color: #3b82f6;
-      color: white;
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    .wrapper {
+      width: 100%;
+      margin-top: 1rem;
+      padding: 1.25rem;
+    }
+    .policy-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: justify;
+      gap: 0.75rem;
+      padding: 1.25rem;
+      border: 2px solid #47C3E6;
+      border-radius: 0.5rem;
+      background: linear-gradient(to bottom, rgba(21, 148, 184, 0.95), rgba(36, 230, 243, 0.95));
+      color: #fff;
+    }
+    .policy-container img {
+      width: 80px;
+      height: 120px;
+    }
+    .policy-container h1 {
+      font-size: 1.875rem;
+      font-weight: 600;
+      margin: 0;
+    }
+    .content {
+      max-width: 896px;
+      margin: 0 auto;
+      padding: 1rem 0.5rem;
+    }
+    .content section {
+      margin-bottom: 1rem;
+    }
+    .content h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    .content p {
+      margin: 0 0 0.5rem;
+    }
+    .content a {
+      color: #60a5fa;
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.875rem;
+      color: #9ca3af;
+    }
+    @media (min-width: 640px) {
+      .content {
+        max-width: 640px;
+      }
+    }
+    @media (min-width: 768px) {
+      .content {
+        max-width: 768px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .content {
+        max-width: 896px;
+      }
     }
   </style>
 </head>
 <body>
-  <div id="root"></div>
-  <script type="text/babel">
-    const { Tabs, TabsList, TabsTrigger, TabsContent } = window['@radix-ui/react-tabs'];
-
-    const TermsAndPolicy = () => {
-      return (
-        <div className="w-full max-h-screen mt-4 relative">
-          <div className="w-full flex flex-col justify-start relative mt-10 text-justify items-center h-auto space-y-3 p-5 border-2 rounded-lg border-[#47C3E6] bg-gradient-to-b from-[#1594B8]/95 via-[#47C3E6]/95 via-[#32BAE0]/95 via-[#1594B8]/95 via-[#13A0C8]/95 to-[#24E6F3]/95">
-            <img src="https://via.placeholder.com/80x120?text=Terms" alt="Terms" className="" width={80} height={120} />
-            <p className="text-3xl font-semibold text-white">Terms & Policy</p>
-            <Tabs defaultValue="daily" className="w-full">
-              <TabsList className="w-full flex justify-center *:py-2 mb-4 h-12 text-white bg-[#05A2C6CC] border-2 border-[#24E6F399] rounded-full">
-                <TabsTrigger
-                  value="daily"
-                  className="w-1/2 px-8 py-2.5 rounded-full relative"
-                >
-                  Terms of Use
-                </TabsTrigger>
-                <TabsTrigger
-                  value="permanent"
-                  className="w-1/2 px-8 py-2.5 rounded-full relative"
-                >
-                  Privacy Policy
-                </TabsTrigger>
-              </TabsList>
-              <TabsContent value="daily">
-                <div className="container mx-auto px-2 py-2 max-w-4xl text-white">
-                  <h1 className="text-2xl font-bold text-center mb-4">Jfox Terms of Use</h1>
-                  <section className="mb-6">
-                    <p className="text-justify">
-                      <strong>Welcome to Jfox (the “Platform”).</strong> By using the Platform, you agree to these Terms of Use (“Terms”). If you do not agree, please do not use the Platform and the Service.
-                    </p>
-                    <p className="text-justify mt-4">
-                      This end user Terms should be read by you (the "User" or "you") in its entirety prior to your use of the Platform services or products. Be aware that this Terms constitutes a legally binding Terms between you and Jfox which operates the Jfox Platform at <a href="https://juniperfox.ai" className="text-white underline">https://juniperfox.ai</a>. You consent to adhering to all the terms set forth in this Terms when/if you are provided with an “ Agree” button and clicking on it.
-                    </p>
-                    <p className="text-justify mt-4">
-                      Jfox offers access to a Telegram Mini App (“Service”, “Jfox Platform”, “Jfox”, "us" or "we") available at <a href="https://t.me/JFOXCommunity" className="text-white underline">https://t.me/JFOXCommunity</a> (the "Service").
-                    </p>
-                  </section>
-                  <section className="mb-6">
-                    <h2 className="text-xl font-semibold mb-4">Risk Warning</h2>
-                    <p className="text-justify">
-                      The value of Digital Assets can fluctuate significantly and there is a material risk of economic loss when earning, holding, or redeeming Digital Assets through activities on the Jfox Platform. You should therefore consider whether participating in the Jfox Platform is suitable for you taking into account your personal circumstances, financial or otherwise.
-                    </p>
-                    <p className="text-justify mt-4">
-                      Please ensure that you fully understand the risks involved before using the Service.
-                    </p>
-                    <p className="text-justify mt-4">
-                      You acknowledge that we are not your broker, intermediary, agent or advisor and we have no fiduciary relationship or obligation to you in connection with any activities you undertake when using the Jfox Platform. We do not and are not providing any investment or consulting advice and no communication or information that we provide to you is intended to be, or should be construed as, advice of any kind.
-                    </p>
-                    <p className="text-justify mt-4">
-                      You are responsible for determining whether any activity, reward strategy, or related participation is appropriate for you in light of your personal objectives, financial circumstances and risk tolerance and you are responsible for any associated loss or liability. We do not recommend that any Digital Asset should be earned, redeemed, or held by you. Before making the decision to earn, redeem, or hold any Digital Asset, you should conduct your own due diligence and consult your financial advisor. We are not responsible for the decisions you make to earn, redeem, or hold Digital Assets based on the information or services provided by Jfox, including any losses you incur arising from those decisions.
-                    </p>
-                  </section>
-                  <section className="mb-6">
-                    <h2 className="text-xl font-semibold mb-4">1. Terms and Definitions</h2>
-                    <ul className="list-decimal pl-6 space-y-2 text-justify">
-                      <li>“Content” has the meaning set out in Clause 4.6.</li>
-                      <li>"Created IP" means any intellectual property (the “IP”) rights created by you pursuant to these Terms, including the User Materials, but excluding any other User IP.</li>
-                      <li>"Digital Assets" means a digital representation of value or rights which may be transferred and stored electronically, using distributed ledger technology or similar technology, including, but not limited to, cryptocurrencies, stablecoins, non-fungible tokens and tokenized derivatives of any other digital asset.</li>
-                      <li>“Prohibited Jurisdictions” has the meaning set out in Clause 14.3.</li>
-                      <li>"Activity" means the earning of points, completion of missions, referral of friends, or participation in games such as lotteries.</li>
-                      <li>“Trade Marks” has the meaning set out in Clause 4.6.</li>
-                      <li>“Wallet” means the digital asset wallet that you connect to the Platform.</li>
-                      <li>"Unauthorized Use" has the meaning set out in Clause 4.4.</li>
-                      <li>"User Materials" means the intellectual property rights in any images, posts, information, data, and comments you or other users provide to us on the Jfox Platform. For the avoidance of doubt, this does not include intellectual property rights in any images used for the creation of Digital Assets.</li>
-                      <li>"Points" means the virtual units earned through Activities on the Platform.</li>
-                    </ul>
-                  </section>
-                  <section className="mb-6">
-                    <h2 className="text-xl font-semibold mb-4">2. Use of the Services</h2>
-                    <p className="text-justify">
-                      2.1. The Services are available through our Mini App on Telegram, and will allow you to set up a digital wallet (the “Wallet”) to earn and redeem certain Digital Assets. Whenever a Wallet is generated for the user (e.g., first signup, or when a user clicks ‘Generate new wallet’), we will immediately show you the private keys to your Wallet, so that you control it.
-                    </p>
-                    <p className="text-justify mt-4 font-bold">
-                      WE ARE NOT RESPONSIBLE FOR THE SAFETY/SECURITY OF YOUR DIGITAL ASSETS. YOU ACKNOWLEDGE AND AGREE THAT YOU UNDERSTAND THE RISK OF TRANSACTING UNENCRYPTED DIGITAL WALLET KEYS OVER THE INTERNET, AND ACCEPT THIS RISK. YOU HEREBY HOLD HARMLESS THE COMPANY PARTIES AND INDEMNIFY THEM FROM AND AGAINST ANY CLAIMS ARISING IN CONNECTION WITH YOUR KEYS.
-                    </p>
-                    <p className="text-justify mt-4">
-                      2.2. When you use the Services, you acknowledge and agree that you are in fact interacting with technology (e.g., protocols, smart contracts, third-party software and services, etc.) which are offered by third parties, and not controlled by us (even when we may have integrated this technology into our Services). You hereby release and hold harmless the Company Parties from and against any losses or liabilities you incur as a result of your use of such third-party materials.
-                    </p>
-                  </section>
-                  <footer className="mt-12 text-center text-xs text-gray-100">
-                    <p>Last updated: March 27, 2025</p>
-                    <p>For inquiries, contact us at <a href="mailto:ollama@juniperfox.ai" className="text-white underline">ollama@juniperfox.ai</a></p>
-                  </footer>
-                </div>
-              </TabsContent>
-              <TabsContent value="permanent">
-                <div className="container mx-auto px-2 py-8 max-w-4xl text-white">
-                  <h1 className="text-2xl font-bold text-center mb-8">Jfox Privacy Policy</h1>
-                  <section className="mb-6">
-                    <h2 className="text-xl font-semibold mb-4">1. Key Concepts</h2>
-                    <ul className="list-decimal pl-6 space-y-2">
-                      <li>
-                        <strong>Application (or Service):</strong> A software service published by the Developer on the platform, included in the app catalog.
-                      </li>
-                      <li>
-                        <strong>Developer:</strong> Jfox, independently or jointly with other persons organizing and/or carrying out the processing of Personal data, as well as determining the purposes of processing Personal data, the composition of Personal data to be processed, actions (operations) performed with Personal data. The Developer publishes the Application on the platform and uses it in accordance with the terms of the platform.
-                      </li>
-                      <li>
-                        <strong>Personal data:</strong> Information recorded on a tangible medium about a specific person, identified with a specific person or which can be identified with a specific person, allowing the identification of that person directly or indirectly by reference to one or more factors specific to his or her biological, economic, cultural, civic or social identity. Personal data includes biographical and identifying data, personal characteristics, marital status, financial status, health status, etc.
-                      </li>
-                      <li>
-                        <strong>Policy:</strong> This Privacy Policy outlines how information about Users is processed and protected.
-                      </li>
-                      <li>
-                        <strong>User:</strong> An individual who has registered and uses the Application.
-                      </li>
-                    </ul>
-                  </section>
-                  <section className="mb-6">
-                    <h2 className="text-xl font-semibold mb-4">2. General Provisions</h2>
-                    <p className="mb-4">
-                      2.1. This Policy is an official document of the Developer and defines the procedure for processing and protecting information about individuals using the Application (i.e., Users).
-                    </p>
-                    <p className="mb-4">
-                      2.2. This Policy governs solely the relationships between the Developer and the User. It cannot and does not regulate the relationship between Telegram and its user, nor does it supersede the Telegram Privacy Policy.
-                    </p>
-                    <p className="mb-4">
-                      2.3. The Developer follows all privacy guidelines set forth by the platforms that distribute Telegram apps, including Apple’s App Review Guidelines and Google’s Developer Policies.
-                    </p>
-                    <p className="mb-4">
-                      2.4. The goal of this Policy is to ensure the proper protection of information about Users, including their Personal data, from unauthorized access and disclosure.
-                    </p>
-                    <p className="mb-4">
-                      2.5. Relations related to the collection, storage, distribution, and protection of information about Users are governed by this Policy and other official documents of the Developer, as well as applicable law.
-                    </p>
-                    <p className="mb-4">
-                      2.6. The Developer has the right to make changes to this Policy. When changes are made, the Developer publishes the new version of the Policy. It is recommended that Users regularly check the terms of this Policy for changes. Continued use of the Application by the User after changes to this Policy indicates acceptance of and agreement with such changes.
-                    </p>
-                    <p className="mb-4">
-                      2.7. User’s continued access to and use of the Application shall constitute his or her acceptance of this Policy, the Telegram Bot Terms, and the Telegram Mini App Terms.
-                    </p>
-                    <p className="mb-4">
-                      2.8. If the User disagrees with the terms of this Policy, the use of the Application must be immediately terminated.
-                    </p>
-                  </section>
-                  <section className="mb-6">
-                    <h2 className="text-xl font-semibold mb-4">3. Conditions for Using the Application</h2>
-                    <p className="mb-4">
-                      3.1. By providing the Application, the Developer reasonably and in good faith believes that the User:
-                    </p>
-                    <ul className="list-disc pl-6 space-y-2 mb-4">
-                      <li>has all the necessary rights to enable them to start and use the Application;</li>
-                      <li>provides accurate information about themselves as required for the use of the Application;</li>
-                      <li>understands that information shared while using the Application may become available to other Users and may be copied and distributed by them;</li>
-                      <li>understands that some types of information provided to other Users while using the Application cannot be deleted by the User themselves;</li>
-                      <li>is familiar with this Policy, agrees with it, and assumes the rights and obligations specified in it.</li>
-                    </ul>
-                    <p className="mb-4">
-                      3.2. The Developer does not verify the accuracy of the information received (collected) about Users.
-                    </p>
-                  </section>
-                  <section className="mb-6">
-                    <h2 className="text-xl font-semibold mb-4">4. Purposes of Processing Information</h2>
-                    <p className="mb-4">
-                      The Developer uses the personal data collected through the Application to:
-                    </p>
-                    <ul className="list-disc pl-6 space-y-2">
-                      <li>provide the Service to the User, create and maintain the account of the User, verify the identity of the User, process Activities (e.g., earning points, completing missions, redeeming rewards), and provide customer support;</li>
-                      <li>improve the Service for the User, identify activity patterns and usage trends;</li>
-                      <li>communicate with the User, send emails to the User, including confirmations and reminders, respond to User’s requests for assistance, or report on technical issues;</li>
-                      <li>fulfill the Developer's obligations to the Users regarding the use of the Application;</li>
-                      <li>update Users about changes to the Service, send messages about new features (e.g., missions, games) or promotions that may interest the User;</li>
-                      <li>maintain safety and security, detect, prevent, and respond to potential or actual security incidents, and protect against other illegal activities.</li>
-                    </ul>
-                  </section>
-                  <section className="mb-6">
-                    <h2 className="text-xl font-semibold mb-4">5. User Information Composition</h2>
-                    <p className="mb-4">
-                      The Developer processes the following information about Users:
-                    </p>
-                    <ul className="list-disc pl-6 space-y-2">
-                      <li>personal data provided with the User's consent and necessary for the use of the Application;</li>
-                      <li>additional information about the User provided by the platform administration with the User's consent;</li>
-                      <li>information provided by the User while using the Application;</li>
-                      <li>information obtained by the Developer as a result of User actions when using the Application (e.g., IP addresses, cookies, application usage statistics).</li>
-                    </ul>
-                  </section>
-                  <section className="mb-6">
-                    <h2 className="text-xl font-semibold mb-4">6. Processing User Personal Data</h2>
-                    <p className="mb-4">
-                      6.1. Processing of personal data is based on the principles of:
-                    </p>
-                    <ul className="list-disc pl-6 space-y-2 mb-4">
-                      <li>legality and fairness of Personal data processing;</li>
-                      <li>correspondence of the purposes of Personal data processing to the purposes predetermined and declared during the collection of Personal data;</li>
-                      <li>correspondence of the volume and nature of processed personal data to the stated purposes of processing;</li>
-                      <li>inadmissibility of combining databases containing Personal data for incompatible purposes.</li>
-                    </ul>
-                    <p className="mb-4">
-                      6.2. The Developer processes personal and other data of the User with their consent for providing Services related to the use of the Application.
-                    </p>
-                    <p className="mb-4">
-                      6.3. Information is collected by the Developer with the User's consent upon the first launch and/or use of the Application.
-                    </p>
-                    <p className="mb-4">
-                      6.4. By using the Application and entering into legal relations with the Developer, the User gives his or her consent to the transfer of his or her Personal Data to third parties (including trans-border) when this is necessary for the Developer to properly fulfill its obligations in accordance with applicable law or fulfill obligations to the User.
-                    </p>
-                    <p className="mb-4">
-                      6.5. The Developer has the right to use the Personal Data of the User to send news, promotions, and other information related to the products and Services provided by the Developer. The Developer has the right to transfer Personal Data to third parties so that they can help in the implementation of marketing and advertising projects or send marketing newsletters. By using the Application, the User accepts this Policy and agrees to receive such marketing communications. The subject of Personal data has the right to refuse to receive such information by contacting the Developer with a corresponding application.
-                    </p>
-                    <p className="mb-4">
-                      6.6. The Developer stores Personal Data for five years from the date of receipt from the User, unless other periods are provided for by law or the nature of the relationship between the Developer and the User. The Developer has the right to carry out indefinite storage (archiving) of Personal Data, if this does not contradict current legislation.
-                    </p>
-                  </section>
-                  <section className="mb-6">
-                    <h2 className="text-xl font-semibold mb-4">7. User Rights and Responsibilities</h2>
-                    <p className="mb-4">
-                      7.1. Users have the following rights:
-                    </p>
-                    <ul className="list-disc pl-6 space-y-2 mb-4">
-                      <li>the right to know what data the Developer has about the User;</li>
-                      <li>the right to correct, delete, or update Personal data of the User. The Developer sometimes may not be able to modify or delete certain information. For example, the Developer is required by law to keep certain information for a defined period;</li>
-                      <li>the right to opt out of receiving electronic marketing communications from the Developer. The Developer may periodically send you emails and messages promoting the use of the Service. The User can opt out (unsubscribe) of receiving these messages by following the instructions included in each email or message. If the User has any additional questions, the User may contact the Developer at <a href="mailto:ollama@juniperfox.ai" className="text-blue-400 underline">ollama@juniperfox.ai</a>.</li>
-                    </ul>
-                    <p className="mb-4">
-                      7.2. The User has the right to know that the Developer has Personal data relating to him or her and to receive the following information from the Developer:
-                    </p>
-                    <ul className="list-disc pl-6 space-y-2 mb-4">
-                      <li>legal grounds and purposes of processing Personal Data;</li>
-                      <li>the purposes and methods used for processing Personal data;</li>
-                      <li>processed Personal Data related to the relevant User, the source of their receipt;</li>
-                      <li>terms of processing of Personal data, including periods of their storage;</li>
-                      <li>the procedure for the User to exercise his rights;</li>
-                      <li>information about completed or intended cross-border data transfers;</li>
-                      <li>other information required by law.</li>
-                    </ul>
-                    <p className="mb-4">
-                      7.3. The User has the right to contact the Developer with a request to delete his or her Personal Data. In this case, the Developer deletes Personal Data except in cases where the obligation to store Personal Data is assigned to the Developer in accordance with the law.
-                    </p>
-                    <p className="mb-4">
-                      7.4. Users can send inquiries regarding the use of their Personal data to the Developer in writing or in the form of an electronic document signed by a qualified electronic signature.
-                    </p>
-                    <p className="mb-4">
-                      7.5. Inquiries should include:
-                    </p>
-                    <ul className="list-disc pl-6 space-y-2 mb-4">
-                      <li>the User's identity document number and issuing authority details;</li>
-                      <li>information confirming the User's relations with the Developer;</li>
-                      <li>the User's or their representative's signature.</li>
-                    </ul>
-                    <p className="mb-4">
-                      7.6. The Developer will review and respond to the inquiry within 30 days of receipt.
-                    </p>
-                    <p className="mb-4">
-                      7.7. All correspondence is confidential and will not be disclosed without the User's written consent. Personal data and other information will be used solely to respond to the inquiry or as required by law.
-                    </p>
-                  </section>
-                  <section className="mb-6">
-                    <h2 className="text-xl font-semibold mb-4">8. Measures to Protect User Information</h2>
-                    <p className="mb-4">
-                      8.1. The Developer takes all necessary legal, organizational, and technical measures to protect Personal data from unauthorized or accidental access, modification, blocking, copying, provision, distribution of personal data, as well as from other unlawful actions in relation to Personal data:
-                    </p>
-                    <ul className="list-disc pl-6 space-y-2 mb-4">
-                      <li>prevents unauthorized persons from accessing equipment used for processing Personal Data;</li>
-                      <li>prevents unauthorized reading, copying, modification, or removal of data media;</li>
-                      <li>prevents unauthorized recording of Personal Data and modification or destruction of recorded Personal Data and provides the possibility of establishing retroactively: when, by whom, and what Personal Data were changed;</li>
-                      <li>ensures the security of data processing systems intended for the transfer of Personal Data, regardless of the means of data transmission;</li>
-                      <li>ensures control of employee access to received Personal Data;</li>
-                      <li>excludes unauthorized reading, copying, modification, and destruction of Personal Data during the transfer and transportation of Personal Data;</li>
-                      <li>ensures the confidentiality of information obtained during the processing of Personal Data;</li>
-                      <li>ensures compliance with the protection of personal data during their processing in personal data information systems, the implementation of which ensures established levels of personal data security.</li>
-                    </ul>
-                    <p className="mb-4">
-                      8.2. User information is handled, transferred, and stored in compliance with applicable laws, including all necessary precautions to prevent unauthorized access, modification, deletion, or distribution.
-                    </p>
-                    <p className="mb-4">
-                      8.3. The Developer will never share User data with third parties, including with Developer’s own additional services or bots (if any, as the case may be) unless explicitly authorized by the User or required by law, such as in response to a lawful court order.
-                    </p>
-                  </section>
-                  <section className="mb-6">
-                    <h2 className="text-xl font-semibold mb-4">9. Policy Limitations</h2>
-                    <p className="mb-4">
-                      This Policy does not apply to the actions and resources of third parties. The Developer is not responsible for the actions of third parties that have gained access to User information due to the nature of the Application's platform, which is accessible to any internet User. Users are advised to carefully consider the amount of information they share.
-                    </p>
-                  </section>
-                  <section className="mb-6">
-                    <h2 className="text-xl font-semibold mb-4">10. Children’s Privacy</h2>
-                    <p className="mb-4">
-                      Users must be at least 18 years of age to register with and use the Application. The Application is not for the use of children under 13. The Developer does not intend to collect Personal data from children under 13.
-                    </p>
-                  </section>
-                  <section className="mb-6">
-                    <h2 className="text-xl font-semibold mb-4">11. Disclaimers</h2>
-                    <p className="mb-4">
-                      11.1. The User acknowledges that the User has read, understood, and agreed to the Telegram Bot Terms and the Telegram Mini App Terms, as well as any other terms made available to the User by the Developer.
-                    </p>
-                    <p className="mb-4">
-                      11.2. The Developer operates under the understanding that all information the User provides is submitted in good faith, and is not obligated to check or verify User’s statements for errors or inaccuracies. It is the responsibility of the User to ensure that all information the User provides is accurate and up-to-date.
-                    </p>
-                    <p className="mb-4">
-                      11.3. The User may decide to make some information available in the public domain, either directly on the Platform, elsewhere on the internet, or via the Application. The information the User chooses to make public may be accessed by other users of the Application via the Platform or on the internet, in which case it will not be covered or protected by this Policy.
-                    </p>
-                  </section>
-                  <section className="mb-6">
-                    <h2 className="text-xl font-semibold mb-4">12. Questions or Concerns</h2>
-                    <p className="mb-4">
-                      All questions regarding the application of this Policy can be directed to the email address <a href="mailto:ollama@juniperfox.ai" className="text-blue-400 underline">ollama@juniperfox.ai</a>.
-                    </p>
-                  </section>
-                  <footer className="mt-12 text-center text-sm text-gray-400">
-                    <p>Last updated: March 27, 2025</p>
-                    <p>For inquiries, contact us at <a href="mailto:ollama@juniperfox.ai" className="text-blue-400 underline">ollama@juniperfox.ai</a></p>
-                  </footer>
-                </div>
-              </TabsContent>
-            </Tabs>
-          </div>
-        </div>
-      );
-    };
-
-    ReactDOM.render(<TermsAndPolicy />, document.getElementById('root'));
-  </script>
+  <div class="wrapper">
+    <div class="policy-container">
+      <h1>Privacy Policy</h1>
+      <div class="content">
+        <section>
+          <h2>1. Overview</h2>
+          <p>This Privacy Policy governs how Jfox ("Developer") processes and protects personal data of users ("User") of the Jfox Telegram Mini App. By using the app, you agree to this policy.</p>
+        </section>
+        <section>
+          <h2>2. Data Collection</h2>
+          <p>We collect personal data you provide (e.g., account details), data from your app usage (e.g., IP addresses, cookies), and platform-provided data with your consent.</p>
+        </section>
+        <section>
+          <h2>3. Data Use</h2>
+          <p>We use your data to provide services, improve the app, communicate updates, process activities (e.g., earning points), and ensure security. Data may be shared with third parties for marketing or legal purposes with your consent.</p>
+        </section>
+        <section>
+          <h2>4. Data Protection</h2>
+          <p>We implement measures to protect your data from unauthorized access or disclosure. Data is stored for five years unless required otherwise by law.</p>
+        </section>
+        <section>
+          <h2>5. User Rights</h2>
+          <p>You can access, correct, or delete your data, and opt out of marketing communications. Contact us at <a href="mailto:ollama@juniperfox.ai">ollama@juniperfox.ai</a> for inquiries.</p>
+        </section>
+        <section>
+          <h2>6. Children’s Privacy</h2>
+          <p>Users must be 18 or older. We do not collect data from children under 13.</p>
+        </section>
+        <section>
+          <h2>7. Policy Updates</h2>
+          <p>We may update this policy. Continued app use after changes indicates your agreement. Check regularly for updates.</p>
+        </section>
+        <footer>
+          <p>Last updated: March 27, 2025</p>
+          <p>Contact: <a href="mailto:ollama@juniperfox.ai">ollama@juniperfox.ai</a></p>
+        </footer>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
